@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Settings View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="SettingsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="SettingsViewController" customModule="RogerVoice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VKy-FF-1Os">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="140"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Paramètres" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UtJ-eG-ibD">
+                                        <rect key="frame" x="16" y="97" width="361" height="43"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="43" id="6bI-KL-8tQ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="36"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="UtJ-eG-ibD" firstAttribute="leading" secondItem="VKy-FF-1Os" secondAttribute="leading" constant="16" id="8aY-PW-ewc"/>
+                                    <constraint firstAttribute="bottom" secondItem="UtJ-eG-ibD" secondAttribute="bottom" id="Tcs-BT-L2r"/>
+                                    <constraint firstAttribute="trailing" secondItem="UtJ-eG-ibD" secondAttribute="trailing" constant="16" id="muB-nh-k9c"/>
+                                    <constraint firstAttribute="height" constant="140" id="zfo-RQ-fMR"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mis-xp-jRC">
+                                <rect key="frame" x="16" y="170" width="361" height="122"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pTb-fv-cA7">
+                                        <rect key="frame" x="12" y="10" width="337" height="46"/>
+                                        <color key="backgroundColor" red="0.10980392156862745" green="0.792156862745098" blue="0.70196078431372544" alpha="0.84705882352941175" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="46" id="sbv-bp-RxS"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="CHARGER LES APPELS"/>
+                                        <connections>
+                                            <action selector="loadCallButtonTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="QNA-sG-gDB"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hol-Gq-YiL">
+                                        <rect key="frame" x="12" y="66" width="337" height="46"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="46" id="eCi-jn-ZZ0"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="VIDER LES APPELS"/>
+                                        <connections>
+                                            <action selector="clearCallsButtonTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="9jO-Ne-qa5"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="hol-Gq-YiL" secondAttribute="trailing" constant="12" id="Nom-Lt-tvy"/>
+                                    <constraint firstAttribute="height" constant="122" id="YPN-FN-NmL"/>
+                                    <constraint firstItem="hol-Gq-YiL" firstAttribute="top" secondItem="pTb-fv-cA7" secondAttribute="bottom" constant="10" id="Yjn-jd-sQe"/>
+                                    <constraint firstItem="pTb-fv-cA7" firstAttribute="leading" secondItem="Mis-xp-jRC" secondAttribute="leading" constant="12" id="gye-Ud-L49"/>
+                                    <constraint firstItem="pTb-fv-cA7" firstAttribute="top" secondItem="Mis-xp-jRC" secondAttribute="top" constant="10" id="hbJ-hz-OdR"/>
+                                    <constraint firstAttribute="trailing" secondItem="pTb-fv-cA7" secondAttribute="trailing" constant="12" id="iPJ-5Z-C4l"/>
+                                    <constraint firstAttribute="bottom" secondItem="hol-Gq-YiL" secondAttribute="bottom" constant="10" id="xFM-Wl-xvK"/>
+                                    <constraint firstItem="hol-Gq-YiL" firstAttribute="leading" secondItem="Mis-xp-jRC" secondAttribute="leading" constant="12" id="zTb-dy-diL"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Mis-xp-jRC" firstAttribute="top" secondItem="VKy-FF-1Os" secondAttribute="bottom" constant="30" id="5Kk-ZO-Xee"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="VKy-FF-1Os" secondAttribute="trailing" id="BXf-h9-N81"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Mis-xp-jRC" secondAttribute="trailing" constant="16" id="OyC-wD-aTy"/>
+                            <constraint firstItem="Mis-xp-jRC" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="R6d-oP-T5H"/>
+                            <constraint firstItem="VKy-FF-1Os" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="ikE-Ht-aJb"/>
+                            <constraint firstItem="VKy-FF-1Os" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="u3c-H9-92M"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="clearCallsButton" destination="hol-Gq-YiL" id="w6M-4n-qCX"/>
+                        <outlet property="loadCallButton" destination="pTb-fv-cA7" id="MG9-nl-f7U"/>
+                        <outlet property="mainView" destination="Mis-xp-jRC" id="T3n-rp-12O"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-54.198473282442748" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

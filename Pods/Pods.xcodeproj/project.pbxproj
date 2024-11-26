@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C3C300FF1C96A618AD8E366CE683482 /* Pods-RogerVoice-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F16B06609FE16BF0795D1079FE7BB76 /* Pods-RogerVoice-dummy.m */; };
+		20634A56598FC2D416F4C351BFE7BCB2 /* Pods-RogerVoiceTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB8DA964E6769A0D42265B40E3FC70D /* Pods-RogerVoiceTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		317F5F5DC218C7A301D52881ABB9AFB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		4431E672EB1535F03E1095BCF442662B /* Pods-RogerVoice-RogerVoiceUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 482E8555068BC1826F68EFE213DEC675 /* Pods-RogerVoice-RogerVoiceUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E115B3CDD54E57A5DF9B8E70F5B853C /* Pods-RogerVoiceTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C583831448AE81E721FF03D6FAF4C5A3 /* Pods-RogerVoiceTests-dummy.m */; };
+		752510545D41D0C93CD79313142EA653 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		7CBD748C738E7856D5FD45162A79549E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		95BEE02D15A62E12D3F00F9DCB537376 /* Pods-RogerVoice-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D65088FD4D3E8741837CECB9B3338409 /* Pods-RogerVoice-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB7294C0AA21E4D744353453F0C5004A /* Pods-RogerVoice-RogerVoiceUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB985B2293CEDD324096BDF450D57C89 /* Pods-RogerVoice-RogerVoiceUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0824992F895D0E32A6FC44946E637989 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9EB1AF8185D8EA4EC1363332726A724;
+			remoteInfo = "Pods-RogerVoice";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		037B7993D60640A900DE94C663BA2281 /* Pods-RogerVoice-RogerVoiceUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RogerVoice-RogerVoiceUITests"; path = Pods_RogerVoice_RogerVoiceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07E724A356E2BB1500954E46B70C0C94 /* Pods-RogerVoiceTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RogerVoiceTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0CBF4C4C849881B0E906D3B7B40A3CEA /* Pods-RogerVoice-RogerVoiceUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RogerVoice-RogerVoiceUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0F16B06609FE16BF0795D1079FE7BB76 /* Pods-RogerVoice-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RogerVoice-dummy.m"; sourceTree = "<group>"; };
+		1813486425FFF27C3771DE24D2637FB1 /* Pods-RogerVoiceTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RogerVoiceTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		29F4902B901ED97D4CCB79BB4370EB22 /* Pods-RogerVoiceTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RogerVoiceTests"; path = Pods_RogerVoiceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		365039AB28A6572F352AC920218B9111 /* Pods-RogerVoice.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RogerVoice.modulemap"; sourceTree = "<group>"; };
+		36CBA0AC089BF499D9F48E29EF81B6F8 /* Pods-RogerVoice */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RogerVoice"; path = Pods_RogerVoice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		47C4668903D9A39561D50F139C271884 /* Pods-RogerVoice-RogerVoiceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RogerVoice-RogerVoiceUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		482E8555068BC1826F68EFE213DEC675 /* Pods-RogerVoice-RogerVoiceUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RogerVoice-RogerVoiceUITests-umbrella.h"; sourceTree = "<group>"; };
+		4D6684238541674A7D9F01008C3449E8 /* Pods-RogerVoice-RogerVoiceUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RogerVoice-RogerVoiceUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		67C4A29B794337423BA6DD39EB4A4EEC /* Pods-RogerVoice-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RogerVoice-Info.plist"; sourceTree = "<group>"; };
+		6C14CD8A3CF9969D53D36D92DED1D370 /* Pods-RogerVoice-RogerVoiceUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RogerVoice-RogerVoiceUITests-Info.plist"; sourceTree = "<group>"; };
+		6EB8DA964E6769A0D42265B40E3FC70D /* Pods-RogerVoiceTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RogerVoiceTests-umbrella.h"; sourceTree = "<group>"; };
+		80260209EBAD2B0F7D5592A2B9CF14BE /* Pods-RogerVoiceTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RogerVoiceTests-Info.plist"; sourceTree = "<group>"; };
+		8B343DF91923BC2E826F018902323C82 /* Pods-RogerVoice-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RogerVoice-acknowledgements.plist"; sourceTree = "<group>"; };
+		950954740823FB8AE3E9ABBA1C53946E /* Pods-RogerVoice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RogerVoice.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F2B6DE7F14F0D4914E73721F4CB703C /* Pods-RogerVoice-RogerVoiceUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RogerVoice-RogerVoiceUITests.modulemap"; sourceTree = "<group>"; };
+		BAA5AFAA2338CBAAB567C53660D7D082 /* Pods-RogerVoice-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RogerVoice-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C583831448AE81E721FF03D6FAF4C5A3 /* Pods-RogerVoiceTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RogerVoiceTests-dummy.m"; sourceTree = "<group>"; };
+		C643A93F3B9ACFD96B887A0A560616B5 /* Pods-RogerVoiceTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RogerVoiceTests.modulemap"; sourceTree = "<group>"; };
+		CB985B2293CEDD324096BDF450D57C89 /* Pods-RogerVoice-RogerVoiceUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RogerVoice-RogerVoiceUITests-dummy.m"; sourceTree = "<group>"; };
+		D13ADD891104727744E85AB709BEA90A /* Pods-RogerVoice-RogerVoiceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RogerVoice-RogerVoiceUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D1C412006BE15A82FEF9C23FDAAF6040 /* Pods-RogerVoiceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RogerVoiceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D65088FD4D3E8741837CECB9B3338409 /* Pods-RogerVoice-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RogerVoice-umbrella.h"; sourceTree = "<group>"; };
+		DF8A0B89757C4A4098A3DE9C0B0C2905 /* Pods-RogerVoiceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RogerVoiceTests.release.xcconfig"; sourceTree = "<group>"; };
+		E8AE147AB3243463E9C88798499F00CD /* Pods-RogerVoice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RogerVoice.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E60F4744C071068F70ECD0C01C72656 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				752510545D41D0C93CD79313142EA653 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11BA1E406137E0FB62892EFC0D042A68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				317F5F5DC218C7A301D52881ABB9AFB6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97EAA3FEED10A41C09CFB8D1CBF1470B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CBD748C738E7856D5FD45162A79549E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35349E2F845FFD82585B36305385A826 /* Pods-RogerVoice-RogerVoiceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F2B6DE7F14F0D4914E73721F4CB703C /* Pods-RogerVoice-RogerVoiceUITests.modulemap */,
+				4D6684238541674A7D9F01008C3449E8 /* Pods-RogerVoice-RogerVoiceUITests-acknowledgements.markdown */,
+				0CBF4C4C849881B0E906D3B7B40A3CEA /* Pods-RogerVoice-RogerVoiceUITests-acknowledgements.plist */,
+				CB985B2293CEDD324096BDF450D57C89 /* Pods-RogerVoice-RogerVoiceUITests-dummy.m */,
+				6C14CD8A3CF9969D53D36D92DED1D370 /* Pods-RogerVoice-RogerVoiceUITests-Info.plist */,
+				482E8555068BC1826F68EFE213DEC675 /* Pods-RogerVoice-RogerVoiceUITests-umbrella.h */,
+				47C4668903D9A39561D50F139C271884 /* Pods-RogerVoice-RogerVoiceUITests.debug.xcconfig */,
+				D13ADD891104727744E85AB709BEA90A /* Pods-RogerVoice-RogerVoiceUITests.release.xcconfig */,
+			);
+			name = "Pods-RogerVoice-RogerVoiceUITests";
+			path = "Target Support Files/Pods-RogerVoice-RogerVoiceUITests";
+			sourceTree = "<group>";
+		};
+		91B6CE06433AA7B85A8C6918889BB495 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9E11FFD1E2E7E84C437A0D31A00117B /* Pods-RogerVoice */,
+				35349E2F845FFD82585B36305385A826 /* Pods-RogerVoice-RogerVoiceUITests */,
+				9881907C792618C92894637C03779769 /* Pods-RogerVoiceTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9881907C792618C92894637C03779769 /* Pods-RogerVoiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				C643A93F3B9ACFD96B887A0A560616B5 /* Pods-RogerVoiceTests.modulemap */,
+				07E724A356E2BB1500954E46B70C0C94 /* Pods-RogerVoiceTests-acknowledgements.markdown */,
+				1813486425FFF27C3771DE24D2637FB1 /* Pods-RogerVoiceTests-acknowledgements.plist */,
+				C583831448AE81E721FF03D6FAF4C5A3 /* Pods-RogerVoiceTests-dummy.m */,
+				80260209EBAD2B0F7D5592A2B9CF14BE /* Pods-RogerVoiceTests-Info.plist */,
+				6EB8DA964E6769A0D42265B40E3FC70D /* Pods-RogerVoiceTests-umbrella.h */,
+				D1C412006BE15A82FEF9C23FDAAF6040 /* Pods-RogerVoiceTests.debug.xcconfig */,
+				DF8A0B89757C4A4098A3DE9C0B0C2905 /* Pods-RogerVoiceTests.release.xcconfig */,
+			);
+			name = "Pods-RogerVoiceTests";
+			path = "Target Support Files/Pods-RogerVoiceTests";
+			sourceTree = "<group>";
+		};
+		C9E11FFD1E2E7E84C437A0D31A00117B /* Pods-RogerVoice */ = {
+			isa = PBXGroup;
+			children = (
+				365039AB28A6572F352AC920218B9111 /* Pods-RogerVoice.modulemap */,
+				BAA5AFAA2338CBAAB567C53660D7D082 /* Pods-RogerVoice-acknowledgements.markdown */,
+				8B343DF91923BC2E826F018902323C82 /* Pods-RogerVoice-acknowledgements.plist */,
+				0F16B06609FE16BF0795D1079FE7BB76 /* Pods-RogerVoice-dummy.m */,
+				67C4A29B794337423BA6DD39EB4A4EEC /* Pods-RogerVoice-Info.plist */,
+				D65088FD4D3E8741837CECB9B3338409 /* Pods-RogerVoice-umbrella.h */,
+				950954740823FB8AE3E9ABBA1C53946E /* Pods-RogerVoice.debug.xcconfig */,
+				E8AE147AB3243463E9C88798499F00CD /* Pods-RogerVoice.release.xcconfig */,
+			);
+			name = "Pods-RogerVoice";
+			path = "Target Support Files/Pods-RogerVoice";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				DBD33FC3BD3CBF4858EC2D051BD118B5 /* Products */,
+				91B6CE06433AA7B85A8C6918889BB495 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBD33FC3BD3CBF4858EC2D051BD118B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36CBA0AC089BF499D9F48E29EF81B6F8 /* Pods-RogerVoice */,
+				037B7993D60640A900DE94C663BA2281 /* Pods-RogerVoice-RogerVoiceUITests */,
+				29F4902B901ED97D4CCB79BB4370EB22 /* Pods-RogerVoiceTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2D9F1B9C098CD2D521DDBC1A263FEC93 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4431E672EB1535F03E1095BCF442662B /* Pods-RogerVoice-RogerVoiceUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88A3BC061CF8800C880AE394490EDB50 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95BEE02D15A62E12D3F00F9DCB537376 /* Pods-RogerVoice-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC644ADE5B56602169D48CBA09CC8775 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20634A56598FC2D416F4C351BFE7BCB2 /* Pods-RogerVoiceTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		48B2DA84E081947258DDB5ADBED116CC /* Pods-RogerVoice-RogerVoiceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59B13B13DAAB7738790D4D82FD29D53A /* Build configuration list for PBXNativeTarget "Pods-RogerVoice-RogerVoiceUITests" */;
+			buildPhases = (
+				2D9F1B9C098CD2D521DDBC1A263FEC93 /* Headers */,
+				B50BA56D3FC8EE4A04DC69D3E467566D /* Sources */,
+				0E60F4744C071068F70ECD0C01C72656 /* Frameworks */,
+				A223272C256D064C840B16A19D987C84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-RogerVoice-RogerVoiceUITests";
+			productName = Pods_RogerVoice_RogerVoiceUITests;
+			productReference = 037B7993D60640A900DE94C663BA2281 /* Pods-RogerVoice-RogerVoiceUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		A9EB1AF8185D8EA4EC1363332726A724 /* Pods-RogerVoice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD1B1A2659AF6561D7D2EEB2E5984DC /* Build configuration list for PBXNativeTarget "Pods-RogerVoice" */;
+			buildPhases = (
+				88A3BC061CF8800C880AE394490EDB50 /* Headers */,
+				32A8E37BC2BA2A4A1C90EC30BAC7A16F /* Sources */,
+				97EAA3FEED10A41C09CFB8D1CBF1470B /* Frameworks */,
+				471E055AA6FEC2DC56CFA6331ED326A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-RogerVoice";
+			productName = Pods_RogerVoice;
+			productReference = 36CBA0AC089BF499D9F48E29EF81B6F8 /* Pods-RogerVoice */;
+			productType = "com.apple.product-type.framework";
+		};
+		FD48D7F8EEED9F3C16283F62A3110E08 /* Pods-RogerVoiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AED076A13A760188B8A36684E7F457F /* Build configuration list for PBXNativeTarget "Pods-RogerVoiceTests" */;
+			buildPhases = (
+				AC644ADE5B56602169D48CBA09CC8775 /* Headers */,
+				6FCB17916EE84B68CF0D53A2D3070C2C /* Sources */,
+				11BA1E406137E0FB62892EFC0D042A68 /* Frameworks */,
+				AC496A2F18EF1070EC21FC99C40964E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED29FDBCA40D47E8CAACE66F2A4CD879 /* PBXTargetDependency */,
+			);
+			name = "Pods-RogerVoiceTests";
+			productName = Pods_RogerVoiceTests;
+			productReference = 29F4902B901ED97D4CCB79BB4370EB22 /* Pods-RogerVoiceTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			packageReferences = (
+				B4065F7D2CF009ED00AC2845 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
+			productRefGroup = DBD33FC3BD3CBF4858EC2D051BD118B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9EB1AF8185D8EA4EC1363332726A724 /* Pods-RogerVoice */,
+				48B2DA84E081947258DDB5ADBED116CC /* Pods-RogerVoice-RogerVoiceUITests */,
+				FD48D7F8EEED9F3C16283F62A3110E08 /* Pods-RogerVoiceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		471E055AA6FEC2DC56CFA6331ED326A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A223272C256D064C840B16A19D987C84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC496A2F18EF1070EC21FC99C40964E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32A8E37BC2BA2A4A1C90EC30BAC7A16F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C3C300FF1C96A618AD8E366CE683482 /* Pods-RogerVoice-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FCB17916EE84B68CF0D53A2D3070C2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E115B3CDD54E57A5DF9B8E70F5B853C /* Pods-RogerVoiceTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50BA56D3FC8EE4A04DC69D3E467566D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB7294C0AA21E4D744353453F0C5004A /* Pods-RogerVoice-RogerVoiceUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED29FDBCA40D47E8CAACE66F2A4CD879 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RogerVoice";
+			target = A9EB1AF8185D8EA4EC1363332726A724 /* Pods-RogerVoice */;
+			targetProxy = 0824992F895D0E32A6FC44946E637989 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0624590EDB155D340DEDA1A1A8E30985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47C4668903D9A39561D50F139C271884 /* Pods-RogerVoice-RogerVoiceUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-RogerVoice-RogerVoiceUITests/Pods-RogerVoice-RogerVoiceUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RogerVoice-RogerVoiceUITests/Pods-RogerVoice-RogerVoiceUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		084EBCBD46E1B9B1B8769D93A5D202AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 950954740823FB8AE3E9ABBA1C53946E /* Pods-RogerVoice.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-RogerVoice/Pods-RogerVoice-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RogerVoice/Pods-RogerVoice.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		15190F685B95CED803E8851BD8A7E339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D13ADD891104727744E85AB709BEA90A /* Pods-RogerVoice-RogerVoiceUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-RogerVoice-RogerVoiceUITests/Pods-RogerVoice-RogerVoiceUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RogerVoice-RogerVoiceUITests/Pods-RogerVoice-RogerVoiceUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		56B6BDA08EA7BC8A220D5379B104B981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF8A0B89757C4A4098A3DE9C0B0C2905 /* Pods-RogerVoiceTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-RogerVoiceTests/Pods-RogerVoiceTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RogerVoiceTests/Pods-RogerVoiceTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B3C2FCCAEA85DD400680B175C3B7A168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1C412006BE15A82FEF9C23FDAAF6040 /* Pods-RogerVoiceTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-RogerVoiceTests/Pods-RogerVoiceTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RogerVoiceTests/Pods-RogerVoiceTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE37240855F2DA2D775F1AEFDD5B1DAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8AE147AB3243463E9C88798499F00CD /* Pods-RogerVoice.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-RogerVoice/Pods-RogerVoice-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RogerVoice/Pods-RogerVoice.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AED076A13A760188B8A36684E7F457F /* Build configuration list for PBXNativeTarget "Pods-RogerVoiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3C2FCCAEA85DD400680B175C3B7A168 /* Debug */,
+				56B6BDA08EA7BC8A220D5379B104B981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59B13B13DAAB7738790D4D82FD29D53A /* Build configuration list for PBXNativeTarget "Pods-RogerVoice-RogerVoiceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0624590EDB155D340DEDA1A1A8E30985 /* Debug */,
+				15190F685B95CED803E8851BD8A7E339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD1B1A2659AF6561D7D2EEB2E5984DC /* Build configuration list for PBXNativeTarget "Pods-RogerVoice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				084EBCBD46E1B9B1B8769D93A5D202AC /* Debug */,
+				BE37240855F2DA2D775F1AEFDD5B1DAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B4065F7D2CF009ED00AC2845 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

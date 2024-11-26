@@ -1,0 +1,6 @@
+framework module Pods_RogerVoice_RogerVoiceUITests {
+  umbrella header "Pods-RogerVoice-RogerVoiceUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
